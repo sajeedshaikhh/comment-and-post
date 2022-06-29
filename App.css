@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+}
+.app__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+  padding: 15px;
+}
+.app__signinBtn {
+  margin-right: 10px !important;
+}
+
+.app__siginForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.app__formField {
+  margin-bottom: 15px !important;
+}
